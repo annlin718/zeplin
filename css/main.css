@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft JhengHei;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#divMain {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+#divMain .divShop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#divMain .divShop .divRelative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#divMain .divShop .divRelative .picPreIcon {
+  position: absolute;
+  cursor: pointer;
+  width: 66.7px;
+  height: 66.7px;
+  top: 3%;
+  left: 3%;
+}
+
+#divMain .divShop .divRelative .picShop {
+  width: auto;
+}
+
+#divMain .divShop .divRelative .picShopLOGO {
+  position: absolute;
+  top: 6%;
+  left: 28%;
+}
+
+#divMain .divShop .divRelative .divShopName {
+  position: absolute;
+  top: 7%;
+  left: 557.5px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  width: 561.3px;
+}
+
+#divMain .divShop .divRelative .divShopName .ShopChineseName {
+  display: block;
+  font-size: 41.7px;
+  height: 51px;
+  letter-spacing: 8.35px;
+  margin-bottom: 15.5px;
+}
+
+#divMain .divShop .divRelative .divShopName .ShopEnglishName {
+  font-size: 30.1px;
+  line-height: 24.3px;
+}
+
+#divMain .divShop .divRelative .picShopPoster {
+  position: absolute;
+  top: 42%;
+  left: 3.65%;
+}
+
+#divMain .divShop .divRelative .picShopMonitor {
+  position: absolute;
+  top: 40.5%;
+  left: 22.8%;
+}
+
+#divMain .divShop .divRelative .picBtnProductsList {
+  position: absolute;
+  width: 357.1px;
+  left: 50%;
+  bottom: 3%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#divMain .divShop .divRelative .divInfoBoard {
+  position: absolute;
+  top: 41%;
+  right: 3.1%;
+}
+
+#divMain .divShop .divRelative .divInfoBoard .divRelative div {
+  position: absolute;
+  left: 32.9px;
+  top: 57.6px;
+}
+
+#divMain .divShop .divRelative .divInfoBoard .divRelative div span {
+  display: block;
+  font-size: 13.4px;
+  color: #333;
+  margin: 0 0 16.3px;
+  width: 90%;
+}
+
+#divMain .divShop .divRelative .divInfoBoard .divRelative div .picEmail,
+#divMain .divShop .divRelative .divInfoBoard .divRelative div .picTEL,
+#divMain .divShop .divRelative .divInfoBoard .divRelative div .picFAX,
+#divMain .divShop .divRelative .divInfoBoard .divRelative div .picADD {
+  width: 57.4px;
+  height: 21.1px;
+}
+
+#divMain .divShop .divRelative .divInfoBoard .divRelative .picWeb {
+  position: absolute;
+  width: 52.6px;
+  top: 0;
+  right: 26.2px;
+}
+
+#divMain .divShop .divRelative .divInfoBoard .divInfoTxt {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.623);
+}
+/*# sourceMappingURL=main.css.map */

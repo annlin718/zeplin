@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft JhengHei;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#divMain {
+    width: 100%;
+    height: fit-content;
+    // min-height: 100vh;
+    position: relative;
+
+    .picBackGround {
+        // width: 100%;
+    }
+
+    .divShop {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .divRelative {
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            .picPreIcon {
+                position: absolute;
+                cursor: pointer;
+                width: 66.7px;
+                height: 66.7px;
+                top: 3%;
+                left: 3%;
+            }
+
+            .picShop {
+                width: auto;
+            }
+
+            .picShopLOGO {
+                position: absolute;
+                top: 6%;
+                left: 28%;
+            }
+
+            .divShopName {
+                position: absolute;
+                top: 7%;
+                left: 557.5px;
+                color: #000;
+                text-align: center;
+                font-weight: bold;
+                width: 561.3px;
+
+                .ShopChineseName {
+                    display: block;
+                    font-size: 41.7px;
+                    height: 51px;
+                    letter-spacing: 8.35px;
+                    margin-bottom: 15.5px;
+                }
+
+                .ShopEnglishName {
+                    font-size: 30.1px;
+                    line-height: 24.3px;
+                }
+            }
+
+            .picShopPoster {
+                position: absolute;
+                top: 42%;
+                left: 3.65%;
+            }
+
+            .picShopMonitor {
+                position: absolute;
+                top: 40.5%;
+                left: 22.8%;
+            }
+
+            .picBtnProductsList {
+                position: absolute;
+                width: 357.1px;
+                left: 50%;
+                bottom: 3%;
+                transform: translateX(-50%);
+                cursor: pointer;
+            }
+
+            .divInfoBoard {
+                position: absolute;
+                top: 41%;
+                right: 3.1%;
+
+                .divRelative {
+
+                    div {
+                        position: absolute;
+                        left: 32.9px;
+                        top: 57.6px;
+
+                        span {
+                            display: block;
+                            font-size: 13.4px;
+                            color: #333;
+                            margin: 0 0 16.3px;
+                            width: 90%;
+                        }
+
+                        .picEmail,
+                        .picTEL,
+                        .picFAX,
+                        .picADD {
+                            width: 57.4px;
+                            height: 21.1px;
+                        }
+                    }
+
+                    .picWeb {
+                        position: absolute;
+                        width: 52.6px;
+                        top: 0;
+                        right: 26.2px;
+                    }
+                }
+
+
+
+                .divInfoTxt {
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(255, 255, 255, 0.623);
+                }
+            }
+        }
+    }
+
+
+}
